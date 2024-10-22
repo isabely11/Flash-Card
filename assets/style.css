@@ -1,16 +1,19 @@
 :root {
-    --text-color: #DBE4EF;
-    --card-front-color: #1d8014;
-    --card-back-color: #00F4BF;
+    --text-color: #000000;
+    --card-front-color: #511777;
+    --card-back-color: #b46f80;
 }
 
 body {
     background: url('img/bg-desktop.jpg');
     font-family: Bai Jamjuree;
 }
-
 #container {
-    display: flex; /* Elementos dispostos em linha */
+    display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     padding: 4rem;
+     gap: 3rem;
 }
 
 .cartao {
